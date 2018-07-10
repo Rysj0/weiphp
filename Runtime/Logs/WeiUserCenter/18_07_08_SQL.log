@@ -1,0 +1,13 @@
+[ 2018-07-08T17:39:49+08:00 ] ::1 /weiphp/index.php?s=/w16/WeiUserCenter/WeiUserCenter/lists.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0007s ]
+SQL: SELECT `name`,type_0 as val FROM `wp_apps_auth`  [ RunTime:0.0093s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'user' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wp_apps_follow` [ RunTime:0.0080s ]
+SQL: SELECT u.uid,f.openid FROM wp_apps_follow as f INNER JOIN wp_user as u ON f.uid=u.uid  WHERE u.status > 0 AND f.token = '' ORDER BY u.uid desc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wp_apps_follow` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wp_apps_follow as f INNER JOIN wp_user as u ON f.uid=u.uid  WHERE u.status > 0 AND f.token = '' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_auth_group` WHERE `token` = '' AND `manager_id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wp_user_tag` WHERE `token` = ''  [ RunTime:0.0225s ]
+

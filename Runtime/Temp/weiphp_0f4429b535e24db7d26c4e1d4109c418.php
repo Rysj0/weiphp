@@ -1,0 +1,3 @@
+<?php
+//000000086400a:10:{s:2:"id";s:3:"934";s:4:"path";s:45:"/Uploads/Picture/2018-07-06/5b3f4628b03c5.jpg";s:3:"url";s:68:"http://localhost/weiphp/Uploads/Picture/2018-07-06/5b3f4628b03c5.jpg";s:11:"category_id";s:1:"0";s:3:"md5";s:32:"8cfe02f4004883610988d7e1f1ad6d21";s:4:"sha1";s:40:"9e07df910afd76b2b1c592d3d907c49b9245f3df";s:6:"status";s:1:"1";s:11:"create_time";s:10:"1530873384";s:5:"token";s:0:"";s:6:"system";s:1:"0";}
+?>

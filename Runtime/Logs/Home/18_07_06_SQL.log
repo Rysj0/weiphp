@@ -1,0 +1,484 @@
+[ 2018-07-06T18:29:21+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/EditorUpload/ue_mgimg.html&
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0013s ]
+
+[ 2018-07-06T18:35:07+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/nrcbr3qasjffddblb9l97hv5p0.html&max=1&field=goodsImage
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0019s ]
+
+[ 2018-07-06T18:35:16+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/systemPics.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187203.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187203.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187204.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187204.png','1','1','1530873316') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187205.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187205.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187206.png' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187206.png','1','1','1530873316') [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187207.png' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187207.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187208.png' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187208.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187209.png' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187209.png','1','1','1530873316') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187210.png' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187210.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187211.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187211.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187212.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187212.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187213.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187213.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187214.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187214.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187215.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187215.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187216.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187216.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187217.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187217.png','1','1','1530873316') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187218.png' LIMIT 1   [ RunTime:0.0012s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187218.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187219.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187219.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187220.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187220.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187221.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187221.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187222.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187222.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187223.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187223.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187224.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187224.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187225.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187225.png','1','1','1530873316') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187226.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187226.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187227.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187227.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187228.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187228.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187229.png' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187229.png','1','1','1530873316') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187230.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187230.png','1','1','1530873316') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187231.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187231.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187232.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187232.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187233.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187233.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187234.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187234.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187235.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187235.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187236.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187236.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187237.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187237.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187238.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187238.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187239.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187239.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187240.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187240.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187241.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187241.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187242.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187242.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187243.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187243.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187244.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187244.png','1','1','1530873316') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187245.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187245.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187246.png' LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187246.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187247.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187247.png','1','1','1530873316') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187248.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187248.png','1','1','1530873316') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187249.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187249.png','1','1','1530873316') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187250.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187250.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187251.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187251.png','1','1','1530873316') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187252.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187252.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187253.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187253.png','1','1','1530873316') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187254.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187254.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187255.png' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187255.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187256.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187256.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187257.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187257.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187258.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187258.png','1','1','1530873316') [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187259.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187259.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187260.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187260.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187261.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187261.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187262.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187262.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187263.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187263.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187264.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187264.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187265.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187265.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187266.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187266.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187267.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187267.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187268.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187268.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187269.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187269.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187270.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187270.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187271.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187271.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187272.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187272.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187273.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187273.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187274.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187274.png','1','1','1530873316') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187275.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187275.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187276.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187276.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187277.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187277.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187278.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187278.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187279.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187279.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187280.png' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187280.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187281.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187281.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187282.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187282.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187283.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187283.png','1','1','1530873316') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187284.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187284.png','1','1','1530873316') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187285.png' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187285.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187286.png' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187286.png','1','1','1530873316') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187287.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187287.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187288.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187288.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187289.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187289.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187290.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187290.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187291.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187291.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187292.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187292.png','1','1','1530873316') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187293.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187293.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187294.png' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187294.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187295.png' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187295.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187296.png' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187296.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187297.png' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187297.png','1','1','1530873316') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187298.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187298.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187299.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187299.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187300.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187300.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187301.png' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187301.png','1','1','1530873316') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187302.png' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `wp_picture` (`path`,`system`,`status`,`create_time`) VALUES ('/Public/static/icon/colors/1187302.png','1','1','1530873316') [ RunTime:0.0006s ]
+
+[ 2018-07-06T18:35:23+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/nrcbr3qasjffddblb9l97hv5p0.html&max=1&field=goodsImage
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0026s ]
+
+[ 2018-07-06T18:35:25+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/systemPics.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187203.png' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187204.png' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187205.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187206.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187207.png' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187208.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187209.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187210.png' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187211.png' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187212.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187213.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187214.png' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187215.png' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187216.png' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187217.png' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187218.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187219.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187220.png' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187221.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187222.png' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187223.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187224.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187225.png' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187226.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187227.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187228.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187229.png' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187230.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187231.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187232.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187233.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187234.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187235.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187236.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187237.png' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187238.png' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187239.png' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187240.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187241.png' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187242.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187243.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187244.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187245.png' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187246.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187247.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187248.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187249.png' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187250.png' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187251.png' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187252.png' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187253.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187254.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187255.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187256.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187257.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187258.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187259.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187260.png' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187261.png' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187262.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187263.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187264.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187265.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187266.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187267.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187268.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187269.png' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187270.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187271.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187272.png' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187273.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187274.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187275.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187276.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187277.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187278.png' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187279.png' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187280.png' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187281.png' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187282.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187283.png' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187284.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187285.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187286.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187287.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187288.png' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187289.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187290.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187291.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187292.png' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187293.png' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187294.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187295.png' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187296.png' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187297.png' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187298.png' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187299.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187300.png' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187301.png' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `path` = '/Public/static/icon/colors/1187302.png' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2018-07-06T18:35:26+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/userPics.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_picture` WHERE `token` = ''  [ RunTime:0.0018s ]
+
+[ 2018-07-06T18:35:35+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/nrcbr3qasjffddblb9l97hv5p0.html&max=9&field=goodsImgs
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0028s ]
+
+[ 2018-07-06T18:36:08+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0009s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1530873367','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'TB2AwpzzeuSBuNjy1XcXXcYjFXa_!!1737242159-0-item_pic.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Fri Jul 06 2018 18:36:02 GMT+0800 (中国标准时间)\',
+  \'size\' => \'2376\',
+); 
+') [ RunTime:0.0011s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '10091ef94f12890bb5805fecef3a335b' AND `sha1` = 'c49543751b2fee7015d534cd34ba08595575c4b0' LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('10091ef94f12890bb5805fecef3a335b','c49543751b2fee7015d534cd34ba08595575c4b0','/Uploads/Picture/2018-07-06/5b3f46180ae86.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-06/5b3f46180ae86.jpg','1','1530873367') [ RunTime:0.0011s ]
+
+[ 2018-07-06T18:36:24+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0024s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1530873384','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+POST: array (
+  \'id\' => \'WU_FILE_1\',
+  \'name\' => \'TB2q.K3w9tYBeNjSspkXXbU8VXa_!!1737242159.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Fri Jul 06 2018 18:36:19 GMT+0800 (中国标准时间)\',
+  \'size\' => \'1768\',
+); 
+') [ RunTime:0.0014s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '8cfe02f4004883610988d7e1f1ad6d21' AND `sha1` = '9e07df910afd76b2b1c592d3d907c49b9245f3df' LIMIT 1   [ RunTime:0.0022s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('8cfe02f4004883610988d7e1f1ad6d21','9e07df910afd76b2b1c592d3d907c49b9245f3df','/Uploads/Picture/2018-07-06/5b3f4628b03c5.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-06/5b3f4628b03c5.jpg','1','1530873384') [ RunTime:0.0016s ]
+
+[ 2018-07-06T18:36:42+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0039s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1530873402','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+POST: array (
+  \'id\' => \'WU_FILE_2\',
+  \'name\' => \'TB2X6.LqhxmpuFjSZFNXXXrRXXa_!!1737242159.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Fri Jul 06 2018 18:36:38 GMT+0800 (中国标准时间)\',
+  \'size\' => \'2594\',
+); 
+') [ RunTime:0.0026s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '8be42f6910dffb55688d473058327ce5' AND `sha1` = '1aee4dd136026c7196583c3cf46ad3d9c51825de' LIMIT 1   [ RunTime:0.0036s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('8be42f6910dffb55688d473058327ce5','1aee4dd136026c7196583c3cf46ad3d9c51825de','/Uploads/Picture/2018-07-06/5b3f463abd610.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-06/5b3f463abd610.jpg','1','1530873402') [ RunTime:0.0029s ]
+
+[ 2018-07-06T18:41:46+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/nrcbr3qasjffddblb9l97hv5p0.html&max=1&field=goodsImage
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0029s ]
+
+[ 2018-07-06T18:41:50+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0026s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1530873710','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'TB2AwpzzeuSBuNjy1XcXXcYjFXa_!!1737242159-0-item_pic.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Fri Jul 06 2018 18:36:02 GMT+0800 (中国标准时间)\',
+  \'size\' => \'2376\',
+); 
+') [ RunTime:0.0020s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '10091ef94f12890bb5805fecef3a335b' AND `sha1` = 'c49543751b2fee7015d534cd34ba08595575c4b0' LIMIT 1   [ RunTime:0.0024s ]
+
+[ 2018-07-06T18:42:03+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/nrcbr3qasjffddblb9l97hv5p0.html&max=1&field=goodsImage
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0023s ]
+
+[ 2018-07-06T18:42:06+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0029s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1530873725','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'TB2AwpzzeuSBuNjy1XcXXcYjFXa_!!1737242159-0-item_pic.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Fri Jul 06 2018 18:36:02 GMT+0800 (中国标准时间)\',
+  \'size\' => \'2376\',
+); 
+') [ RunTime:0.0021s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '10091ef94f12890bb5805fecef3a335b' AND `sha1` = 'c49543751b2fee7015d534cd34ba08595575c4b0' LIMIT 1   [ RunTime:0.0029s ]
+
+[ 2018-07-06T18:42:26+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/nrcbr3qasjffddblb9l97hv5p0.html&max=1&field=goodsImage
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0032s ]
+
+[ 2018-07-06T18:42:52+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0016s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1530873772','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'TB2Uv93hwFkpuFjSspnXXb4qFXa_!!2898958275.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Fri Jul 06 2018 18:42:48 GMT+0800 (中国标准时间)\',
+  \'size\' => \'1532\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '86a499dced4d3bc5362e9b1691c63da7' AND `sha1` = 'c211156bd4f17c5cf86fc2d220e925e642469982' LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('86a499dced4d3bc5362e9b1691c63da7','c211156bd4f17c5cf86fc2d220e925e642469982','/Uploads/Picture/2018-07-06/5b3f47acc79e6.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-06/5b3f47acc79e6.jpg','1','1530873772') [ RunTime:0.0009s ]
+
+[ 2018-07-06T18:42:56+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/nrcbr3qasjffddblb9l97hv5p0.html&max=9&field=goodsImgs
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0048s ]
+
+[ 2018-07-06T18:42:59+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0014s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1530873779','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'TB2Uv93hwFkpuFjSspnXXb4qFXa_!!2898958275.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Fri Jul 06 2018 18:42:48 GMT+0800 (中国标准时间)\',
+  \'size\' => \'1532\',
+); 
+') [ RunTime:0.0018s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '86a499dced4d3bc5362e9b1691c63da7' AND `sha1` = 'c211156bd4f17c5cf86fc2d220e925e642469982' LIMIT 1   [ RunTime:0.0022s ]
+
+[ 2018-07-06T18:43:28+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0022s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1530873808','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+POST: array (
+  \'id\' => \'WU_FILE_1\',
+  \'name\' => \'TB120REXxUaBuNjt_iGXXXlkFXa_!!0-item_pic.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Fri Jul 06 2018 18:43:23 GMT+0800 (中国标准时间)\',
+  \'size\' => \'2206\',
+); 
+') [ RunTime:0.0018s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '6c9663ae3ea9d849e0902ac773c7c531' AND `sha1` = '959ee54617d4e1926ec4d7462c2fdf888f308572' LIMIT 1   [ RunTime:0.0021s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('6c9663ae3ea9d849e0902ac773c7c531','959ee54617d4e1926ec4d7462c2fdf888f308572','/Uploads/Picture/2018-07-06/5b3f47d02d5b5.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-06/5b3f47d02d5b5.jpg','1','1530873808') [ RunTime:0.0016s ]
+
+[ 2018-07-06T18:43:34+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0023s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1530873814','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+POST: array (
+  \'id\' => \'WU_FILE_2\',
+  \'name\' => \'TB2HGhti7qvpuFjSZFhXXaOgXXa_!!2898958275.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Fri Jul 06 2018 18:43:10 GMT+0800 (中国标准时间)\',
+  \'size\' => \'2007\',
+); 
+') [ RunTime:0.0021s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '2b178c5a4fed157e09aec73b4feb4461' AND `sha1` = '934b96833b3c2cf82ac130a50671554455330c45' LIMIT 1   [ RunTime:0.0024s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('2b178c5a4fed157e09aec73b4feb4461','934b96833b3c2cf82ac130a50671554455330c45','/Uploads/Picture/2018-07-06/5b3f47d6ee043.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-06/5b3f47d6ee043.jpg','1','1530873814') [ RunTime:0.0022s ]
+
+[ 2018-07-06T18:43:38+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/nrcbr3qasjffddblb9l97hv5p0.html&max=1&field=goodsImage
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0028s ]
+
+[ 2018-07-06T18:43:41+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0008s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1530873821','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/nrcbr3qasjffddblb9l97hv5p0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'TB2HGhti7qvpuFjSZFhXXaOgXXa_!!2898958275.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Fri Jul 06 2018 18:43:10 GMT+0800 (中国标准时间)\',
+  \'size\' => \'2007\',
+); 
+') [ RunTime:0.0011s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '2b178c5a4fed157e09aec73b4feb4461' AND `sha1` = '934b96833b3c2cf82ac130a50671554455330c45' LIMIT 1   [ RunTime:0.0014s ]
+

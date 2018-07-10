@@ -1,0 +1,9 @@
+[ 2018-07-08T17:39:09+08:00 ] ::1 /weiphp/index.php?s=/w0/Home/User/login/from/1.html
+NOTIC: [8] Undefined index: qr_code D:\phpStudy\WWW\weiphp\Application\Home\Controller\UserController.class.php 第 258 行.
+
+[ 2018-07-08T17:39:27+08:00 ] ::1 /weiphp/index.php?s=/w0/Home/User/login/from/1.html
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\weiphp\Application\Common\Model\UserModel.class.php 第 148 行.
+
+[ 2018-07-08T17:39:45+08:00 ] ::1 /weiphp/index.php?s=/w0/Home/User/login/from/1.html
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\weiphp\Application\Common\Common\function.php 第 736 行.
+

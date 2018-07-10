@@ -1,0 +1,244 @@
+[ 2018-07-08T17:39:07+08:00 ] ::1 /weiphp/
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0629s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0063s ]
+
+[ 2018-07-08T17:39:09+08:00 ] ::1 /weiphp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0087s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wp_qr_code` [ RunTime:0.0430s ]
+SQL: SELECT `id`,`qr_code`,`addon`,`aim_id`,`cTime`,`token`,`action_name`,`extra_text`,`extra_int`,`request_count`,`scene_id`,`expire_seconds` FROM `wp_qr_code` WHERE `addon` = 'ScanLogin' AND `extra_text` = '5b41dbbc0d620' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`token` FROM `wp_apps`  [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wp_qr_code` [ RunTime:0.0137s ]
+
+[ 2018-07-08T17:39:27+08:00 ] ::1 /weiphp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `nickname` = '李业裕' LIMIT 1   [ RunTime:0.0569s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `nickname` = '李业裕' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-07-08T17:39:45+08:00 ] ::1 /weiphp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `nickname` = 'admin' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `wp_action` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `wp_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_user` SET `login_count`=`login_count`+1,`last_login_time`='1531042785',`last_login_ip`='0' WHERE `uid` = 1 [ RunTime:0.0018s ]
+
+[ 2018-07-08T17:39:45+08:00 ] ::1 /weiphp/index.php?s=/w0/Home/Index/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0012s ]
+
+[ 2018-07-08T17:39:45+08:00 ] ::1 /weiphp/index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0016s ]
+
+[ 2018-07-08T17:39:45+08:00 ] ::1 /weiphp/index.php?s=/w0/Home/Apps/lists/from/3.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `wp_manager` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0087s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SELECT `openid`,`token`,`uid`,`has_subscribe`,`syc_status`,`remark` FROM `wp_apps_follow` WHERE ( uid='1' )  [ RunTime:0.0145s ]
+SQL: SELECT `tag_id` FROM `wp_user_tag_link` WHERE `uid` = 1  [ RunTime:0.0137s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'apps' LIMIT 1   [ RunTime:0.0043s ]
+SQL: SELECT `mp_id` FROM `wp_apps_link` WHERE ( uid='1' )  [ RunTime:0.0027s ]
+SQL: SELECT `mp_id`,count(1) as num FROM `wp_apps_link` WHERE `mp_id` IN ('16') GROUP BY mp_id  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`uid`,`public_name`,`public_id`,`headface_url`,`area`,`addon_config`,`addon_status`,`token`,`type`,`appid`,`secret`,`encodingaeskey`,`tips_url`,`is_bind`,`check_file`,`app_type`,`mch_id`,`partner_key`,`cert_pem`,`key_pem`,`authorizer_refresh_token` FROM `wp_apps` WHERE `id` IN ('16') ORDER BY id desc  [ RunTime:0.0007s ]
+
+[ 2018-07-08T18:00:10+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/sjb7pdn5q03slu28tipu0shvn0.html&max=1&field=goodsImage
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0021s ]
+
+[ 2018-07-08T18:02:09+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0021s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044128','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'西瓜5.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 18:01:49 GMT+0800 (中国标准时间)\',
+  \'size\' => \'41471\',
+); 
+') [ RunTime:0.0658s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '757c8cda8353a899e2857f3b1c971635' AND `sha1` = 'ea419aeb9c081fa19b27c258ce6fe3c78b4834c5' LIMIT 1   [ RunTime:0.0034s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('757c8cda8353a899e2857f3b1c971635','ea419aeb9c081fa19b27c258ce6fe3c78b4834c5','/Uploads/Picture/2018-07-08/5b41e1212dee1.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-08/5b41e1212dee1.jpg','1','1531044128') [ RunTime:0.0021s ]
+
+[ 2018-07-08T18:02:20+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/sjb7pdn5q03slu28tipu0shvn0.html&max=9&field=goodsImgs
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0034s ]
+
+[ 2018-07-08T18:02:28+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0020s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044148','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'西瓜4.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 18:01:42 GMT+0800 (中国标准时间)\',
+  \'size\' => \'45800\',
+); 
+') [ RunTime:0.0018s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = 'cf767d9839f04aa7998516f726ac1bae' AND `sha1` = 'e37e14dcfb4b919c8f6ecdd00215c587f2d7fd31' LIMIT 1   [ RunTime:0.0022s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('cf767d9839f04aa7998516f726ac1bae','e37e14dcfb4b919c8f6ecdd00215c587f2d7fd31','/Uploads/Picture/2018-07-08/5b41e13486c32.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-08/5b41e13486c32.jpg','1','1531044148') [ RunTime:0.0019s ]
+
+[ 2018-07-08T18:02:31+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0013s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044151','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_1\',
+  \'name\' => \'西瓜5.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 18:01:49 GMT+0800 (中国标准时间)\',
+  \'size\' => \'41471\',
+); 
+') [ RunTime:0.0013s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '757c8cda8353a899e2857f3b1c971635' AND `sha1` = 'ea419aeb9c081fa19b27c258ce6fe3c78b4834c5' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2018-07-08T18:02:41+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0017s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044161','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_2\',
+  \'name\' => \'西瓜6.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 18:01:56 GMT+0800 (中国标准时间)\',
+  \'size\' => \'31558\',
+); 
+') [ RunTime:0.0017s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '0f07bc4b40a8357a833d080c80dcbc49' AND `sha1` = '710703f733d3591ddb79f0f9f44ffe97355b0df0' LIMIT 1   [ RunTime:0.0018s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('0f07bc4b40a8357a833d080c80dcbc49','710703f733d3591ddb79f0f9f44ffe97355b0df0','/Uploads/Picture/2018-07-08/5b41e1419af63.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-08/5b41e1419af63.jpg','1','1531044161') [ RunTime:0.0017s ]
+
+[ 2018-07-08T18:07:20+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/sjb7pdn5q03slu28tipu0shvn0.html&max=1&field=goodsImage
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0016s ]
+
+[ 2018-07-08T18:07:24+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0015s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044444','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'葡萄1.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 17:58:34 GMT+0800 (中国标准时间)\',
+  \'size\' => \'39987\',
+); 
+') [ RunTime:0.0011s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = 'cb9947791512cd496df740bb2dd020ae' AND `sha1` = '8c66087ecd7fba608f1da1d3c1aef7a325674c1a' LIMIT 1   [ RunTime:0.0015s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('cb9947791512cd496df740bb2dd020ae','8c66087ecd7fba608f1da1d3c1aef7a325674c1a','/Uploads/Picture/2018-07-08/5b41e25c43396.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-08/5b41e25c43396.jpg','1','1531044444') [ RunTime:0.0011s ]
+
+[ 2018-07-08T18:07:32+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/sjb7pdn5q03slu28tipu0shvn0.html&max=9&field=goodsImgs
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0054s ]
+
+[ 2018-07-08T18:07:36+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0021s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044456','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'葡萄1.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 17:58:34 GMT+0800 (中国标准时间)\',
+  \'size\' => \'39987\',
+); 
+') [ RunTime:0.0011s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = 'cb9947791512cd496df740bb2dd020ae' AND `sha1` = '8c66087ecd7fba608f1da1d3c1aef7a325674c1a' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2018-07-08T18:07:39+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0009s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044459','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_1\',
+  \'name\' => \'葡萄2.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 17:58:42 GMT+0800 (中国标准时间)\',
+  \'size\' => \'29464\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '15d4f4135a63b50c2ff8d6cad23f0fa2' AND `sha1` = '4de33cb3051db5598281979f6ae641c3ee9974e5' LIMIT 1   [ RunTime:0.0013s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('15d4f4135a63b50c2ff8d6cad23f0fa2','4de33cb3051db5598281979f6ae641c3ee9974e5','/Uploads/Picture/2018-07-08/5b41e26b53b14.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-08/5b41e26b53b14.jpg','1','1531044459') [ RunTime:0.0011s ]
+
+[ 2018-07-08T18:07:42+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0019s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044462','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_2\',
+  \'name\' => \'葡萄4.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 18:01:12 GMT+0800 (中国标准时间)\',
+  \'size\' => \'62066\',
+); 
+') [ RunTime:0.0011s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '14deb390f8c1ff8c2361cfe9d71260de' AND `sha1` = '4db60ff2356d3d54f5012030ffab693e39fca420' LIMIT 1   [ RunTime:0.0015s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('14deb390f8c1ff8c2361cfe9d71260de','4db60ff2356d3d54f5012030ffab693e39fca420','/Uploads/Picture/2018-07-08/5b41e26e3682d.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-08/5b41e26e3682d.jpg','1','1531044462') [ RunTime:0.0012s ]
+
+[ 2018-07-08T18:11:13+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/sjb7pdn5q03slu28tipu0shvn0.html&max=1&field=goodsImage
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0058s ]
+
+[ 2018-07-08T18:11:17+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0018s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044677','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'芒果1.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 17:59:11 GMT+0800 (中国标准时间)\',
+  \'size\' => \'33942\',
+); 
+') [ RunTime:0.0019s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = 'e14306feafab0ba19726d0776cf0b7ee' AND `sha1` = '95a28b0f9d719775e981d82fa708ce05cc946fa3' LIMIT 1   [ RunTime:0.0019s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('e14306feafab0ba19726d0776cf0b7ee','95a28b0f9d719775e981d82fa708ce05cc946fa3','/Uploads/Picture/2018-07-08/5b41e345b98ee.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-08/5b41e345b98ee.jpg','1','1531044677') [ RunTime:0.0022s ]
+
+[ 2018-07-08T18:11:20+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/sjb7pdn5q03slu28tipu0shvn0.html&max=9&field=goodsImgs
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0063s ]
+
+[ 2018-07-08T18:11:34+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadDialog/session_id/sjb7pdn5q03slu28tipu0shvn0.html&max=9&field=goodsImgs
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0028s ]
+
+[ 2018-07-08T18:11:39+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0026s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044699','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_0\',
+  \'name\' => \'芒果1.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 17:59:11 GMT+0800 (中国标准时间)\',
+  \'size\' => \'33942\',
+); 
+') [ RunTime:0.0016s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = 'e14306feafab0ba19726d0776cf0b7ee' AND `sha1` = '95a28b0f9d719775e981d82fa708ce05cc946fa3' LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2018-07-08T18:11:41+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0019s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044701','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_1\',
+  \'name\' => \'芒果2.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 17:59:22 GMT+0800 (中国标准时间)\',
+  \'size\' => \'18231\',
+); 
+') [ RunTime:0.0013s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = '2175902d71045a2534dd6b96f1f7bc3b' AND `sha1` = 'f5e41aa73ed8793a4b5f6eade97cc6e9d3ce7e62' LIMIT 1   [ RunTime:0.0018s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('2175902d71045a2534dd6b96f1f7bc3b','f5e41aa73ed8793a4b5f6eade97cc6e9d3ce7e62','/Uploads/Picture/2018-07-08/5b41e35d99622.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-08/5b41e35d99622.jpg','1','1531044701') [ RunTime:0.0012s ]
+
+[ 2018-07-08T18:11:44+08:00 ] ::1 /weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0031s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','Home','1531044704','http://localhost/weiphp/index.php?s=/w16/Home/File/uploadPicture/session_id/sjb7pdn5q03slu28tipu0shvn0.html
+POST: array (
+  \'id\' => \'WU_FILE_2\',
+  \'name\' => \'芒果3.jpg\',
+  \'type\' => \'image/jpeg\',
+  \'lastModifiedDate\' => \'Sun Jul 08 2018 17:59:37 GMT+0800 (中国标准时间)\',
+  \'size\' => \'20619\',
+); 
+') [ RunTime:0.0023s ]
+SQL: SELECT `id`,`path`,`url`,`category_id`,`md5`,`sha1`,`status`,`create_time`,`token`,`system` FROM `wp_picture` WHERE `md5` = 'bfd4f0ea2fcbcad070ddf848801c6657' AND `sha1` = '1e37345b7cc4c6dba85c3b6fb030bbd4491b82a2' LIMIT 1   [ RunTime:0.0028s ]
+SQL: INSERT INTO `wp_picture` (`md5`,`sha1`,`path`,`token`,`url`,`status`,`create_time`) VALUES ('bfd4f0ea2fcbcad070ddf848801c6657','1e37345b7cc4c6dba85c3b6fb030bbd4491b82a2','/Uploads/Picture/2018-07-08/5b41e36081b1a.jpg','','http://localhost/weiphp/Uploads/Picture/2018-07-08/5b41e36081b1a.jpg','1','1531044704') [ RunTime:0.0025s ]
+

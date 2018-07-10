@@ -1,0 +1,6 @@
+[ 2018-07-06T18:49:58+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+ERR: 非法操作:getGoodsList
+
+[ 2018-07-06T18:50:02+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=
+ERR: 非法操作:getGoodsId
+

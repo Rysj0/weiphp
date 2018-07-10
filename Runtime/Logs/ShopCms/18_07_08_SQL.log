@@ -1,0 +1,334 @@
+[ 2018-07-08T17:39:54+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/lists.html&mdm=406
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'shop_cms' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `goodsName`,`goodsImage`,`goodsOldPrice`,`id` FROM `wp_shop_cms` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 938 LIMIT 1   [ RunTime:0.0568s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 933 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 830 LIMIT 1   [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_shop_cms` LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-07-08T17:42:51+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0606s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`goodsName`,`goodsImage`,`goodsAddress`,`goodsPrice` FROM `wp_shop_cms`  [ RunTime:0.0006s ]
+
+[ 2018-07-08T17:44:09+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/id/3/model/shop_cms/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 936 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 937 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2018-07-08T18:00:08+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/id/3/model/shop_cms/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-07-08T18:05:44+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0008s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','ShopCms','1531044344','http://localhost/weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/mdm/406.html
+POST: array (
+  \'goodsName\' => \'原味绿豆糕\',
+  \'goodsImage\' => \'939\',
+  \'goodsImgs\' => 
+  array (
+    0 => \'940\',
+    1 => \'939\',
+    2 => \'941\',
+  ),
+  \'goodsAddress\' => \'广州\',
+  \'goodsPrice\' => \'35.00\',
+  \'goodsOldPrice\' => \'69.00\',
+  \'iscollect\' => \'0\',
+  \'goodsContent\' => \'宁夏西瓜石头瓜富硒砂瓜水果新鲜现摘现发包邮收藏发10斤特大批发\',
+  \'brand\' => \'大西瓜\',
+  \'yieldly\' => \'宁夏中卫\',
+  \'size\' => \'8kg\',
+  \'times\' => \'5 天\',
+  \'production\' => \'2018-07-08\',
+  \'savings\' => \'低温阴凉干燥\',
+  \'apply\' => \'老少皆宜\',
+  \'eat\' => \'直接食用\',
+  \'cozy\' => \'冰冻食用效果更佳\',
+  \'goodsDetails\' => \'<p>品牌名称：<span class=\"J_EbrandLogo\" target=\"_blank\" href=\"//brand.tmall.com/brandInfo.htm?brandId=1962585196&amp;type=0&amp;scm=1048.1.1.4\" style=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51);\">杞满溢</span></p><p class=\"attr-list-hd tm-clear\" style=\"margin-top: 0px; margin-bottom: 0px; padding: 5px 20px; line-height: 22px; color: rgb(153, 153, 153);\"><span style=\"margin: 0px; padding: 0px; font-weight: 700; float: left;\">产品参数：</span></p><ul id=\"J_AttrUL\" style=\"list-style-type: none;\" class=\" list-paddingleft-2\"><li><p>厂名：宁夏中卫香山硒砂瓜</p></li><li><p>厂址：宁夏中卫香山</p></li><li><p>厂家联系方式：15595158289</p></li><li><p>保质期：30 天</p></li><li><p>包装方式:&nbsp;散装</p></li><li><p>品牌:&nbsp;杞满溢</p></li><li><p>系列:&nbsp;硒砂瓜</p></li><li><p>规格:&nbsp;4000g</p></li><li><p>售卖方式:&nbsp;单品</p></li><li><p>水果种类:&nbsp;西瓜</p></li><li><p>生鲜储存温度:&nbsp;8-15℃</p></li><li><p>重量(g):&nbsp;4000</p></li><li><p>热卖时间:&nbsp;6月&nbsp;7月&nbsp;8月</p></li><li><p>产地:&nbsp;中国大陆</p></li><li><p>省份:&nbsp;宁夏回族自治区</p></li><li><p>城市:&nbsp;中卫市</p></li><li><p>套餐份量:&nbsp;3人份</p></li><li><p>套餐周期:&nbsp;1周</p></li><li><p>配送频次:&nbsp;1周2次</p></li><li><p>特产品类:&nbsp;中卫香山压砂西瓜</p></li><li><p>价格:&nbsp;0-50元</p></li></ul><div id=\"mall-banner\" style=\"margin: 0px; padding: 0px; color: rgb(64, 64, 64); font-family: tahoma, arial, 微软雅黑, sans-serif; font-size: 12px; white-space: normal; background-color: rgb(255, 255, 255);\"></div><p style=\"margin-top: 1.12em; margin-bottom: 1.12em; padding: 0px; line-height: 1.4;\"><a href=\"https://taoquan.taobao.com/coupon/unify_apply.htm?sellerId=3971023134&amp;activityId=3dc59051f7694d88bd7f65f96aa0bb47\" target=\"_blank\" style=\"margin: 0px; padding: 0px; text-decoration-line: none; color: rgb(51, 85, 170); outline: 0px;\"><img src=\"https://img.alicdn.com/imgextra/i3/3971023134/TB2Z7HkjrsrBKNjSZFpXXcXhFXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; float: none;\"/></a><img src=\"https://img.alicdn.com/imgextra/i3/3971023134/TB2SbaNiVooBKNjSZPhXXc2CXXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i4/3971023134/TB24D7.iYArBKNjSZFLXXc_dVXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i1/3971023134/TB2n_..iYArBKNjSZFLXXc_dVXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i2/3971023134/TB22EMGi8smBKNjSZFFXXcT9VXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/></p><p><br/></p>\',
+  \'parse\' => \'0\',
+  \'id\' => \'3\',
+); 
+') [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `wp_shop_cms` SET `goodsName`='原味绿豆糕',`goodsImage`='939',`goodsImgs`='940,939,941',`goodsAddress`='广州',`goodsPrice`='35',`goodsOldPrice`='69',`iscollect`='0',`goodsContent`='宁夏西瓜石头瓜富硒砂瓜水果新鲜现摘现发包邮收藏发10斤特大批发',`brand`='大西瓜',`yieldly`='宁夏中卫',`size`='8kg',`times`='5 天',`production`='1530979200',`savings`='低温阴凉干燥',`apply`='老少皆宜',`eat`='直接食用',`cozy`='冰冻食用效果更佳',`goodsDetails`='<p>品牌名称：<span class=\"J_EbrandLogo\" target=\"_blank\" href=\"//brand.tmall.com/brandInfo.htm?brandId=1962585196&type=0&scm=1048.1.1.4\" style=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51);\">杞满溢</span></p><p class=\"attr-list-hd tm-clear\" style=\"margin-top: 0px; margin-bottom: 0px; padding: 5px 20px; line-height: 22px; color: rgb(153, 153, 153);\"><span style=\"margin: 0px; padding: 0px; font-weight: 700; float: left;\">产品参数：</span></p><ul id=\"J_AttrUL\" style=\"list-style-type: none;\" class=\" list-paddingleft-2\"><li><p>厂名：宁夏中卫香山硒砂瓜</p></li><li><p>厂址：宁夏中卫香山</p></li><li><p>厂家联系方式：15595158289</p></li><li><p>保质期：30 天</p></li><li><p>包装方式: 散装</p></li><li><p>品牌: 杞满溢</p></li><li><p>系列: 硒砂瓜</p></li><li><p>规格: 4000g</p></li><li><p>售卖方式: 单品</p></li><li><p>水果种类: 西瓜</p></li><li><p>生鲜储存温度: 8-15℃</p></li><li><p>重量(g): 4000</p></li><li><p>热卖时间: 6月 7月 8月</p></li><li><p>产地: 中国大陆</p></li><li><p>省份: 宁夏回族自治区</p></li><li><p>城市: 中卫市</p></li><li><p>套餐份量: 3人份</p></li><li><p>套餐周期: 1周</p></li><li><p>配送频次: 1周2次</p></li><li><p>特产品类: 中卫香山压砂西瓜</p></li><li><p>价格: 0-50元</p></li></ul><div id=\"mall-banner\" style=\"margin: 0px; padding: 0px; color: rgb(64, 64, 64); font-family: tahoma, arial, 微软雅黑, sans-serif; font-size: 12px; white-space: normal; background-color: rgb(255, 255, 255);\"></div><p style=\"margin-top: 1.12em; margin-bottom: 1.12em; padding: 0px; line-height: 1.4;\"><a href=\"https://taoquan.taobao.com/coupon/unify_apply.htm?sellerId=3971023134&activityId=3dc59051f7694d88bd7f65f96aa0bb47\" target=\"_blank\" style=\"margin: 0px; padding: 0px; text-decoration-line: none; color: rgb(51, 85, 170); outline: 0px;\"><img src=\"https://img.alicdn.com/imgextra/i3/3971023134/TB2Z7HkjrsrBKNjSZFpXXcXhFXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; float: none;\"/></a><img src=\"https://img.alicdn.com/imgextra/i3/3971023134/TB2SbaNiVooBKNjSZPhXXc2CXXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i4/3971023134/TB24D7.iYArBKNjSZFLXXc_dVXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i1/3971023134/TB2n_..iYArBKNjSZFLXXc_dVXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i2/3971023134/TB22EMGi8smBKNjSZFFXXcT9VXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/></p><p><br/></p>' WHERE `id` = 3 [ RunTime:0.0013s ]
+
+[ 2018-07-08T18:05:46+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/lists/model/shop_cms/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0012s ]
+SQL: SELECT `goodsName`,`goodsImage`,`goodsOldPrice`,`id` FROM `wp_shop_cms` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 939 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_shop_cms` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-07-08T18:05:51+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/id/3/model/shop_cms/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 940 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 941 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-07-08T18:06:08+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0011s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','ShopCms','1531044368','http://localhost/weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/mdm/406.html
+POST: array (
+  \'goodsName\' => \'宁夏大西瓜\',
+  \'goodsImage\' => \'939\',
+  \'goodsImgs\' => 
+  array (
+    0 => \'940\',
+    1 => \'939\',
+    2 => \'941\',
+  ),
+  \'goodsAddress\' => \'广州\',
+  \'goodsPrice\' => \'35\',
+  \'goodsOldPrice\' => \'69\',
+  \'iscollect\' => \'0\',
+  \'goodsContent\' => \'宁夏西瓜石头瓜富硒砂瓜水果新鲜现摘现发包邮收藏发10斤特大批发\',
+  \'brand\' => \'大西瓜\',
+  \'yieldly\' => \'宁夏中卫\',
+  \'size\' => \'8kg\',
+  \'times\' => \'5 天\',
+  \'production\' => \'2018-07-08\',
+  \'savings\' => \'低温阴凉干燥\',
+  \'apply\' => \'老少皆宜\',
+  \'eat\' => \'直接食用\',
+  \'cozy\' => \'冰冻食用效果更佳\',
+  \'goodsDetails\' => \'<p>品牌名称：<span class=\"J_EbrandLogo\" target=\"_blank\" href=\"//brand.tmall.com/brandInfo.htm?brandId=1962585196&amp;type=0&amp;scm=1048.1.1.4\" style=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51);\">杞满溢</span></p><p class=\"attr-list-hd tm-clear\" style=\"margin-top: 0px; margin-bottom: 0px; padding: 5px 20px; line-height: 22px; color: rgb(153, 153, 153);\"><span style=\"margin: 0px; padding: 0px; font-weight: 700; float: left;\">产品参数：</span></p><ul id=\"J_AttrUL\" style=\"list-style-type: none;\" class=\" list-paddingleft-2\"><li><p>厂名：宁夏中卫香山硒砂瓜</p></li><li><p>厂址：宁夏中卫香山</p></li><li><p>厂家联系方式：15595158289</p></li><li><p>保质期：30 天</p></li><li><p>包装方式:&nbsp;散装</p></li><li><p>品牌:&nbsp;杞满溢</p></li><li><p>系列:&nbsp;硒砂瓜</p></li><li><p>规格:&nbsp;4000g</p></li><li><p>售卖方式:&nbsp;单品</p></li><li><p>水果种类:&nbsp;西瓜</p></li><li><p>生鲜储存温度:&nbsp;8-15℃</p></li><li><p>重量(g):&nbsp;4000</p></li><li><p>热卖时间:&nbsp;6月&nbsp;7月&nbsp;8月</p></li><li><p>产地:&nbsp;中国大陆</p></li><li><p>省份:&nbsp;宁夏回族自治区</p></li><li><p>城市:&nbsp;中卫市</p></li><li><p>套餐份量:&nbsp;3人份</p></li><li><p>套餐周期:&nbsp;1周</p></li><li><p>配送频次:&nbsp;1周2次</p></li><li><p>特产品类:&nbsp;中卫香山压砂西瓜</p></li><li><p>价格:&nbsp;0-50元</p></li></ul><p style=\"margin-top: 1.12em; margin-bottom: 1.12em; padding: 0px; line-height: 1.4;\"><a href=\"https://taoquan.taobao.com/coupon/unify_apply.htm?sellerId=3971023134&amp;activityId=3dc59051f7694d88bd7f65f96aa0bb47\" target=\"_blank\" style=\"margin: 0px; padding: 0px; text-decoration-line: none; color: rgb(51, 85, 170); outline: 0px;\"><img src=\"https://img.alicdn.com/imgextra/i3/3971023134/TB2Z7HkjrsrBKNjSZFpXXcXhFXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; float: none;\"/></a><img src=\"https://img.alicdn.com/imgextra/i3/3971023134/TB2SbaNiVooBKNjSZPhXXc2CXXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i4/3971023134/TB24D7.iYArBKNjSZFLXXc_dVXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i1/3971023134/TB2n_..iYArBKNjSZFLXXc_dVXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i2/3971023134/TB22EMGi8smBKNjSZFFXXcT9VXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/></p><p><br/></p>\',
+  \'parse\' => \'0\',
+  \'id\' => \'3\',
+); 
+') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0018s ]
+SQL: UPDATE `wp_shop_cms` SET `goodsName`='宁夏大西瓜',`goodsImage`='939',`goodsImgs`='940,939,941',`goodsAddress`='广州',`goodsPrice`='35',`goodsOldPrice`='69',`iscollect`='0',`goodsContent`='宁夏西瓜石头瓜富硒砂瓜水果新鲜现摘现发包邮收藏发10斤特大批发',`brand`='大西瓜',`yieldly`='宁夏中卫',`size`='8kg',`times`='5 天',`production`='1530979200',`savings`='低温阴凉干燥',`apply`='老少皆宜',`eat`='直接食用',`cozy`='冰冻食用效果更佳',`goodsDetails`='<p>品牌名称：<span class=\"J_EbrandLogo\" target=\"_blank\" href=\"//brand.tmall.com/brandInfo.htm?brandId=1962585196&type=0&scm=1048.1.1.4\" style=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51);\">杞满溢</span></p><p class=\"attr-list-hd tm-clear\" style=\"margin-top: 0px; margin-bottom: 0px; padding: 5px 20px; line-height: 22px; color: rgb(153, 153, 153);\"><span style=\"margin: 0px; padding: 0px; font-weight: 700; float: left;\">产品参数：</span></p><ul id=\"J_AttrUL\" style=\"list-style-type: none;\" class=\" list-paddingleft-2\"><li><p>厂名：宁夏中卫香山硒砂瓜</p></li><li><p>厂址：宁夏中卫香山</p></li><li><p>厂家联系方式：15595158289</p></li><li><p>保质期：30 天</p></li><li><p>包装方式: 散装</p></li><li><p>品牌: 杞满溢</p></li><li><p>系列: 硒砂瓜</p></li><li><p>规格: 4000g</p></li><li><p>售卖方式: 单品</p></li><li><p>水果种类: 西瓜</p></li><li><p>生鲜储存温度: 8-15℃</p></li><li><p>重量(g): 4000</p></li><li><p>热卖时间: 6月 7月 8月</p></li><li><p>产地: 中国大陆</p></li><li><p>省份: 宁夏回族自治区</p></li><li><p>城市: 中卫市</p></li><li><p>套餐份量: 3人份</p></li><li><p>套餐周期: 1周</p></li><li><p>配送频次: 1周2次</p></li><li><p>特产品类: 中卫香山压砂西瓜</p></li><li><p>价格: 0-50元</p></li></ul><p style=\"margin-top: 1.12em; margin-bottom: 1.12em; padding: 0px; line-height: 1.4;\"><a href=\"https://taoquan.taobao.com/coupon/unify_apply.htm?sellerId=3971023134&activityId=3dc59051f7694d88bd7f65f96aa0bb47\" target=\"_blank\" style=\"margin: 0px; padding: 0px; text-decoration-line: none; color: rgb(51, 85, 170); outline: 0px;\"><img src=\"https://img.alicdn.com/imgextra/i3/3971023134/TB2Z7HkjrsrBKNjSZFpXXcXhFXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; float: none;\"/></a><img src=\"https://img.alicdn.com/imgextra/i3/3971023134/TB2SbaNiVooBKNjSZPhXXc2CXXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i4/3971023134/TB24D7.iYArBKNjSZFLXXc_dVXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i1/3971023134/TB2n_..iYArBKNjSZFLXXc_dVXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img src=\"https://img.alicdn.com/imgextra/i2/3971023134/TB22EMGi8smBKNjSZFFXXcT9VXa_!!3971023134.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/></p><p><br/></p>' WHERE `id` = 3 [ RunTime:0.0023s ]
+
+[ 2018-07-08T18:06:10+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/lists/model/shop_cms/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0015s ]
+SQL: SELECT `goodsName`,`goodsImage`,`goodsOldPrice`,`id` FROM `wp_shop_cms` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_shop_cms` LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2018-07-08T18:06:14+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/id/2/model/shop_cms/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 934 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 935 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2018-07-08T18:10:31+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0023s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','ShopCms','1531044631','http://localhost/weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/mdm/406.html
+POST: array (
+  \'goodsName\' => \'马陆新鲜葡萄\',
+  \'goodsImage\' => \'942\',
+  \'goodsImgs\' => 
+  array (
+    0 => \'942\',
+    1 => \'943\',
+    2 => \'944\',
+  ),
+  \'goodsAddress\' => \'上海\',
+  \'goodsPrice\' => \'68\',
+  \'goodsOldPrice\' => \'169\',
+  \'iscollect\' => \'0\',
+  \'goodsContent\' => \'正宗马陆新鲜葡萄巨峰夏黑玫瑰香奶油香水果4斤礼盒混搭装包顺丰\',
+  \'brand\' => \'甜葡萄\',
+  \'yieldly\' => \'马陆\',
+  \'size\' => \'2.6kg\',
+  \'times\' => \'7 天\',
+  \'production\' => \'2018-07-08\',
+  \'savings\' => \'低温干燥\',
+  \'apply\' => \'老少皆宜\',
+  \'eat\' => \'直接食用\',
+  \'cozy\' => \'冰冻效果更佳\',
+  \'goodsDetails\' => \'<p><span style=\"margin: 0px; padding: 0px;\"></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 1.4;\"><img src=\"https://gdp.alicdn.com/imgextra/i2/3543682568/TB2erK1y.R1BeNjy0FmXXb0wVXa_!!3543682568.jpg\" data-spm-anchor-id=\"a220o.1000855.5003-18581881141.i0.5fed52724KoLRE\" style=\"margin: 0px; padding: 0px; border: 0px; vertical-align: middle;\"/></p><p></p><p><span style=\"margin: 0px; padding: 0px;text-decoration:line-through;\"><strong style=\"margin: 0px; padding: 0px;\"></strong></span></p><p style=\"margin-top: 1.12em; margin-bottom: 1.12em; padding: 0px; line-height: 1.4;\"><img src=\"https://img.alicdn.com/imgextra/i4/3543682568/TB23A_stC8YBeNkSnb4XXaevFXa_!!3543682568.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i2/3543682568/TB2_mCVqC8YBeNkSnb4XXaevFXa_!!3543682568.jpg\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i4/3543682568/TB28ge8y_lYBeNjSszcXXbwhFXa_!!3543682568.jpg\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i1/3543682568/TB25KOEyNSYBuNjSsphXXbGvVXa_!!3543682568.jpg\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/3543682568/TB2kBzfyL9TBuNjy1zbXXXpepXa_!!3543682568.jpg\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/></p><p><br/></p>\',
+  \'parse\' => \'0\',
+  \'id\' => \'2\',
+); 
+') [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `wp_shop_cms` SET `goodsName`='马陆新鲜葡萄',`goodsImage`='942',`goodsImgs`='942,943,944',`goodsAddress`='上海',`goodsPrice`='68',`goodsOldPrice`='169',`iscollect`='0',`goodsContent`='正宗马陆新鲜葡萄巨峰夏黑玫瑰香奶油香水果4斤礼盒混搭装包顺丰',`brand`='甜葡萄',`yieldly`='马陆',`size`='2.6kg',`times`='7 天',`production`='1530979200',`savings`='低温干燥',`apply`='老少皆宜',`eat`='直接食用',`cozy`='冰冻效果更佳',`goodsDetails`='<p><span style=\"margin: 0px; padding: 0px;\"></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; line-height: 1.4;\"><img src=\"https://gdp.alicdn.com/imgextra/i2/3543682568/TB2erK1y.R1BeNjy0FmXXb0wVXa_!!3543682568.jpg\" data-spm-anchor-id=\"a220o.1000855.5003-18581881141.i0.5fed52724KoLRE\" style=\"margin: 0px; padding: 0px; border: 0px; vertical-align: middle;\"/></p><p></p><p><span style=\"margin: 0px; padding: 0px;text-decoration:line-through;\"><strong style=\"margin: 0px; padding: 0px;\"></strong></span></p><p style=\"margin-top: 1.12em; margin-bottom: 1.12em; padding: 0px; line-height: 1.4;\"><img src=\"https://img.alicdn.com/imgextra/i4/3543682568/TB23A_stC8YBeNkSnb4XXaevFXa_!!3543682568.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i2/3543682568/TB2_mCVqC8YBeNkSnb4XXaevFXa_!!3543682568.jpg\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i4/3543682568/TB28ge8y_lYBeNjSszcXXbwhFXa_!!3543682568.jpg\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i1/3543682568/TB25KOEyNSYBuNjSsphXXbGvVXa_!!3543682568.jpg\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/><img align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/3543682568/TB2kBzfyL9TBuNjy1zbXXXpepXa_!!3543682568.jpg\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none;\"/></p><p><br/></p>' WHERE `id` = 2 [ RunTime:0.0015s ]
+
+[ 2018-07-08T18:10:33+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/lists/model/shop_cms/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0028s ]
+SQL: SELECT `goodsName`,`goodsImage`,`goodsOldPrice`,`id` FROM `wp_shop_cms` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 942 LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_shop_cms` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-07-08T18:11:03+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/id/1/model/shop_cms/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 831 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 832 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-07-08T18:13:11+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0012s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','0.0.0.0','ShopCms','1531044791','http://localhost/weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/mdm/406.html
+POST: array (
+  \'goodsName\' => \'桂七芒果\',
+  \'goodsImage\' => \'945\',
+  \'goodsImgs\' => 
+  array (
+    0 => \'945\',
+    1 => \'946\',
+    2 => \'947\',
+  ),
+  \'goodsAddress\' => \'广西南宁\',
+  \'goodsPrice\' => \'65\',
+  \'goodsOldPrice\' => \'169\',
+  \'iscollect\' => \'0\',
+  \'goodsContent\' => \'桂七芒果新鲜包邮广西百色田东大芒果整箱10斤当季水果批发青芒果\',
+  \'brand\' => \'大芒果\',
+  \'yieldly\' => \'广西北流市\',
+  \'size\' => \'3.6kg\',
+  \'times\' => \'7天\',
+  \'production\' => \'2018-07-08\',
+  \'savings\' => \'低温避光存储\',
+  \'apply\' => \'老少皆宜\',
+  \'eat\' => \'直接食用\',
+  \'cozy\' => \'冰冻效果更佳\',
+  \'goodsDetails\' => \'<p><img src=\"https://img.alicdn.com/imgextra/i3/3929482747/TB2bjVdcEz.BuNjt_j7XXX0nFXa_!!3929482747.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none; color: rgb(64, 64, 64); font-family: tahoma, arial, 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"/><img src=\"https://img.alicdn.com/imgextra/i4/3929482747/TB2NB_bCf1TBuNjy0FjXXajyXXa_!!3929482747.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none; color: rgb(64, 64, 64); font-family: tahoma, arial, 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"/><img src=\"https://img.alicdn.com/imgextra/i4/3929482747/TB2hKqZtOCYBuNkHFCcXXcHtVXa_!!3929482747.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none; color: rgb(64, 64, 64); font-family: tahoma, arial, 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"/><img src=\"https://img.alicdn.com/imgextra/i3/3929482747/TB2MsXOkbZnBKNjSZFKXXcGOVXa_!!3929482747.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none; color: rgb(64, 64, 64); font-family: tahoma, arial, 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"/><img src=\"https://img.alicdn.com/imgextra/i1/3929482747/TB2pChECeOSBuNjy0FdXXbDnVXa_!!3929482747.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none; color: rgb(64, 64, 64); font-family: tahoma, arial, 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"/></p>\',
+  \'parse\' => \'0\',
+  \'id\' => \'1\',
+); 
+') [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `wp_shop_cms` SET `goodsName`='桂七芒果',`goodsImage`='945',`goodsImgs`='945,946,947',`goodsAddress`='广西南宁',`goodsPrice`='65',`goodsOldPrice`='169',`iscollect`='0',`goodsContent`='桂七芒果新鲜包邮广西百色田东大芒果整箱10斤当季水果批发青芒果',`brand`='大芒果',`yieldly`='广西北流市',`size`='3.6kg',`times`='7天',`production`='1530979200',`savings`='低温避光存储',`apply`='老少皆宜',`eat`='直接食用',`cozy`='冰冻效果更佳',`goodsDetails`='<p><img src=\"https://img.alicdn.com/imgextra/i3/3929482747/TB2bjVdcEz.BuNjt_j7XXX0nFXa_!!3929482747.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none; color: rgb(64, 64, 64); font-family: tahoma, arial, 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"/><img src=\"https://img.alicdn.com/imgextra/i4/3929482747/TB2NB_bCf1TBuNjy0FjXXajyXXa_!!3929482747.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none; color: rgb(64, 64, 64); font-family: tahoma, arial, 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"/><img src=\"https://img.alicdn.com/imgextra/i4/3929482747/TB2hKqZtOCYBuNkHFCcXXcHtVXa_!!3929482747.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none; color: rgb(64, 64, 64); font-family: tahoma, arial, 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"/><img src=\"https://img.alicdn.com/imgextra/i3/3929482747/TB2MsXOkbZnBKNjSZFKXXcGOVXa_!!3929482747.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none; color: rgb(64, 64, 64); font-family: tahoma, arial, 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"/><img src=\"https://img.alicdn.com/imgextra/i1/3929482747/TB2pChECeOSBuNjy0FdXXbDnVXa_!!3929482747.jpg\" align=\"absmiddle\" class=\"img-ks-lazyload\" style=\"margin: 0px; padding: 0px; border: 0px; animation: ks-fadeIn 350ms linear 0ms 1 normal both; opacity: 1; vertical-align: top; max-width: 100%; float: none; color: rgb(64, 64, 64); font-family: tahoma, arial, 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"/></p>' WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2018-07-08T18:13:12+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/lists/model/shop_cms/mdm/406.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 1  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0019s ]
+SQL: SELECT `goodsName`,`goodsImage`,`goodsOldPrice`,`id` FROM `wp_shop_cms` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 945 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_shop_cms` LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-07-08T18:13:31+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0715s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0039s ]
+SQL: SELECT `id`,`goodsName`,`goodsImage`,`goodsAddress`,`goodsPrice` FROM `wp_shop_cms`  [ RunTime:0.0031s ]
+
+[ 2018-07-08T18:13:37+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=1
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0120s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 1  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 946 LIMIT 1   [ RunTime:0.0063s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 947 LIMIT 1   [ RunTime:0.0029s ]
+
+[ 2018-07-08T18:14:00+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0119s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0024s ]
+SQL: SELECT `id`,`goodsName`,`goodsImage`,`goodsAddress`,`goodsPrice` FROM `wp_shop_cms`  [ RunTime:0.0017s ]
+
+[ 2018-07-08T18:14:09+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=1
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0120s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 1  [ RunTime:0.0042s ]
+
+[ 2018-07-08T18:16:05+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0111s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0042s ]
+SQL: SELECT `id`,`goodsName`,`goodsImage`,`goodsAddress`,`goodsPrice` FROM `wp_shop_cms`  [ RunTime:0.0050s ]
+
+[ 2018-07-08T18:16:37+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=1
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0114s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 1  [ RunTime:0.0027s ]
+
+[ 2018-07-08T18:17:55+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=1
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0196s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 1  [ RunTime:0.0024s ]
+
+[ 2018-07-08T18:17:59+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=2
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0349s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 2  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 943 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wp_picture` WHERE `status` = 1 AND `id` = 944 LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2018-07-08T18:18:04+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=3
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0117s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wp_shop_cms` WHERE `id` = 3  [ RunTime:0.0037s ]
+
+[ 2018-07-08T18:18:12+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 0  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0091s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 2 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`goodsName`,`goodsImage`,`goodsAddress`,`goodsPrice` FROM `wp_shop_cms`  [ RunTime:0.0007s ]
+

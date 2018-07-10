@@ -1,0 +1,74 @@
+[ 2018-07-08T17:39:54+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/lists.html&mdm=406
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T17:42:51+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T17:44:09+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/id/3/model/shop_cms/mdm/406.html
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:00:08+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/id/3/model/shop_cms/mdm/406.html
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:05:46+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/lists/model/shop_cms/mdm/406.html
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:05:51+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/id/3/model/shop_cms/mdm/406.html
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:06:10+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/lists/model/shop_cms/mdm/406.html
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:06:14+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/id/2/model/shop_cms/mdm/406.html
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:10:33+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/lists/model/shop_cms/mdm/406.html
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:11:03+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/edit/id/1/model/shop_cms/mdm/406.html
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:13:12+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/lists/model/shop_cms/mdm/406.html
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:13:31+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:13:37+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=1
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:14:00+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:14:09+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=1
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:16:05+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:16:37+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=1
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:17:55+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=1
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:17:59+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=2
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:18:04+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsId&id=3
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
+[ 2018-07-08T18:18:12+08:00 ] ::1 /weiphp/index.php?s=/w16/ShopCms/ShopCms/getGoodsList
+NOTIC: [8] Undefined variable: res D:\phpStudy\WWW\weiphp\Application\Common\Model\AppsModel.class.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\weiphp\Application\Common\Model\MenuModel.class.php 第 168 行.
+
